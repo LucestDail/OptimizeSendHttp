@@ -234,7 +234,7 @@
         window.addEventListener("load", function () {
     
                 // Connect to the server
-                eventSource = new EventSource("http://localhost:8080/dashboard/main/info");
+                eventSource = new EventSource("http://3.36.240.28:8080/dashboard/main/info");
     
                 // Receive messages
                 eventSource.onmessage = function (event) {
@@ -254,7 +254,7 @@
             window.addEventListener("load", function () {
             
                 // Connect to the server
-                eventSource1 = new EventSource("http://localhost:8080/dashboard/main/traffic");
+                eventSource1 = new EventSource("http://3.36.240.28:8080/dashboard/main/traffic");
 
                 // Receive messages
                 eventSource1.onmessage = function (event) {
@@ -270,7 +270,7 @@
             window.addEventListener("load", function () {
             
                 // Connect to the server
-                eventSource2 = new EventSource("http://localhost:8080/dashboard/main/emergency");
+                eventSource2 = new EventSource("http://3.36.240.28:8080/dashboard/main/emergency");
 
                 // Receive messages
                 eventSource2.onmessage = function (event) {
@@ -286,7 +286,7 @@
             window.addEventListener("load", function () {
             
                 // Connect to the server
-                eventSource3 = new EventSource("http://localhost:8080/dashboard/main/yeonhap");
+                eventSource3 = new EventSource("http://3.36.240.28/:8080/dashboard/main/yeonhap");
 
                 // Receive messages
                 eventSource3.onmessage = function (event) {
